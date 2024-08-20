@@ -1,0 +1,15 @@
+export { RxDashboard as Dashboard } from "react-icons/rx";
+export { GrAnnounce as Campaign } from "react-icons/gr";
+export { BiMoneyWithdraw as Money } from "react-icons/bi";
+export { PiCardsThreeBold as Card } from "react-icons/pi";
+export { CgProfile as Profile } from "react-icons/cg";
+export { TbLogout2 as Logout } from "react-icons/tb";
+export { GiHamburgerMenu as Menu } from "react-icons/gi";
+export { IoSearch as Search } from "react-icons/io5";
+export { MdOutlineWbSunny as Sun } from "react-icons/md";
+export { IoMoonOutline as Moon } from "react-icons/io5";
+export { FaWallet as Wallet } from "react-icons/fa";
+export { GiTakeMyMoney as CashGive } from "react-icons/gi";
+export { FaRegCalendarAlt as Calendar } from "react-icons/fa";
+export { FaRegFolder as Folder } from "react-icons/fa";
+export { TbLoader as Loader } from "react-icons/tb";
