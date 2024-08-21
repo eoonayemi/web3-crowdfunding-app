@@ -10,8 +10,8 @@
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="javascript" />
   </div>
 
-<h1 align="center">Setting Up the Web3 Blockchain Crowdfunding App</h1>
-<h6>This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.</h6>
+<h1 align="center">Web3 Blockchain Crowdfunding App (DecentraCrowd)</h1>
+<h5>This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.</h5>
 </div/>
 
 
