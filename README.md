@@ -1,5 +1,14 @@
 [![Header](https://i.imghippo.com/files/KdfYZ1724258037.png)](https://decentra-crowd.vercel.app)
 
+<div align="center">
+    <img src="https://img.shields.io/badge/Solidity-363636.svg?style=for-the-badge&logo=Solidity&logoColor=white" alt="solidity" />
+    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="ethereum" />
+    <img src="https://img.shields.io/badge/Node%20js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="node" />
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="react" />
+    <img src="https://img.shields.io/badge/thirdweb-F213A4.svg?style=for-the-badge&logo=thirdweb&logoColor=white" alt="thirdweb" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="javascript" />
+  </div>
+
 # Setting Up the Web3 Blockchain Crowdfunding App
 
 This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.
