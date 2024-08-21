@@ -11,10 +11,10 @@ const Layout = () => {
       <div className="flex-1 overflow-y-auto">
         <div className="flex px-5 pb-4 flex-col gap-5 sm:mr-10 xl:mr-28 md:mr-12">
           <TopBar />
-          <div className="md:hidden sm:w-[27rem]">
+          <div className="md:hidden sm:w-[27rem] mt-24 sm:mt-0">
             <SearchBox />
           </div>
-          <div className="mt-5 sm:mt-0 flex flex-col gap-5">
+          <div className="flex flex-col gap-5">
             <Outlet />
           </div>
         </div>
