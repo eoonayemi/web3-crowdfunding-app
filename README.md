@@ -1,4 +1,4 @@
-[![Head](https://i.imghippo.com/files/0Zvc01724257132.gif)](https://decentra-crowd.vercel.app)
+[![Header](https://i.imghippo.com/files/0Zvc01724257132.gif)](https://decentra-crowd.vercel.app)
 
 # Setting Up the Web3 Blockchain Crowdfunding App
 
