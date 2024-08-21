@@ -11,7 +11,7 @@
   </div>
 
 <h1 align="center">Setting Up the Web3 Blockchain Crowdfunding App</h1>
-<h3>This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.</h3>
+<h6>This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.</h6>
 </div/>
 
 
