@@ -1,4 +1,5 @@
 [![Header](https://i.imghippo.com/files/KdfYZ1724258037.png)](https://decentra-crowd.vercel.app)
+<div align="center">
 
 <div align="center">
     <img src="https://img.shields.io/badge/Solidity-363636.svg?style=for-the-badge&logo=Solidity&logoColor=white" alt="solidity" />
@@ -9,7 +10,8 @@
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" alt="javascript" />
   </div>
 
-# Setting Up the Web3 Blockchain Crowdfunding App
+<h1 align="center">Setting Up the Web3 Blockchain Crowdfunding App</h1>
+</div/>
 
 This guide will walk you through the process of setting up the Web3 Blockchain Crowdfunding App on your local machine.
 
