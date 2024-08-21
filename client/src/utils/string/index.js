@@ -18,3 +18,17 @@ export const shortenAddress = (str) => {
     return str;
   }
 };
+
+export const isValidImageUrl = (url) => {
+  if (!url.startsWith("https://")) {
+    return false;
+  }
+
+  return fetch(url, { method: "HEAD" })
+    .then((response) => {
+      return (
+        response.ok && response.headers.get("Content-Type").startsWith("image/")
+      );
+    })
+    .catch(() => false);
+};

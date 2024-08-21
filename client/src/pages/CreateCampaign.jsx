@@ -3,7 +3,7 @@ import { FormField, CustomButton } from "../components";
 import { campaignFormFields } from "../constants";
 import { useEffect, useState } from "react";
 import { useContractContext } from "../contexts";
-import { getMilliseconds } from "../utils";
+import { getMilliseconds, isNumber, isValidImageUrl } from "../utils";
 import { useNavigate } from "react-router-dom";
 import { toWei } from "thirdweb/utils";
 import { useSendAndConfirmTransaction } from "thirdweb/react";
@@ -43,6 +43,12 @@ const CreateCampaign = () => {
     if (!owner) {
       return alert("Connect your wallet");
     }
+    if (!isValidImageUrl(form.image)) {
+      return alert("Image url is invalid");
+    }
+    if (!isNumber(form.target)) {
+      return alert("Image url is invalid");
+    }
     await createCampaign({
       ...form,
       deadline: getMilliseconds(form.deadline),
@@ -52,6 +58,8 @@ const CreateCampaign = () => {
       contract,
     });
   };
+
+  console.log(form);
 
   return (
     <div className="bg-[#1c1c24] rounded-xl p-5 flex_v_center gap-10 sm:p-10">
@@ -89,13 +97,13 @@ const CreateCampaign = () => {
         <div className="flex max-md:flex-col gap-10">
           <FormField
             {...campaignFormFields.goal}
-            value={form.goal}
+            value={form.target}
             onChange={(e) => setForm({ ...form, target: e.target.value })}
           />
           <div className="flex-1 relative">
             <FormField
               {...campaignFormFields.endDate}
-              value={form.endDate}
+              value={form.deadline}
               onChange={(e) => setForm({ ...form, deadline: e.target.value })}
             />
             <Calendar className="text-slate-500 absolute text-lg top-[3rem] right-[0.9rem]" />
@@ -121,7 +129,9 @@ const CreateCampaign = () => {
       {isPending && (
         <div className="absolute flex flex-col  justify-center items-center inset-0 bg-black bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-70 z-50">
           <Loader className="animate-spin text-3xl text-primary-b" />
-          <span className="text-sm font-bold">Creating Campaign</span>
+          <span className="text-sm font-bold text-white">
+            Creating Campaign
+          </span>
         </div>
       )}
     </div>
