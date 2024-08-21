@@ -1,4 +1,4 @@
-[![MasterHead](https://i.imghippo.com/files/0Zvc01724257132.gif)](https://decentra-crowd.vercel.app)
+[![Head](https://i.imghippo.com/files/0Zvc01724257132.gif)](https://decentra-crowd.vercel.app)
 
 # Setting Up the Web3 Blockchain Crowdfunding App
 
@@ -62,8 +62,6 @@ cd web3-crowdfunding-app
     - If you copied it the earlier, get from where you kept it and paste it to the .env file
 
 ## Running the Application
-
-2. **Client**:
     - Open a new terminal and navigate to the `client` directory.
     - Install dependencies: `npm install`.
     - Start the frontend application: `npm run dev`.
